@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: trust-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: trust_db
+      POSTGRES_USER: trust_user
+      POSTGRES_PASSWORD: trust_password
+    ports:
+      - "5432:5432"
+    volumes:
+      - trust_pgdata:/var/lib/postgresql/data
+
+volumes:
+  trust_pgdata:
