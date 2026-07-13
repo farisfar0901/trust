@@ -1,0 +1,71 @@
+{
+  "heading": {
+    "eyebrow": "About",
+    "title": "History, founder story, and the purpose behind the trust",
+    "description": "A minimal layout with clear information hierarchy helps the trust introduce itself with confidence and credibility."
+  },
+  "historySection": {
+    "eyebrow": "History",
+    "title": "Built to serve people with clarity and discipline",
+    "description": "The trust began with a simple goal: make welfare support easier to access, easier to understand, and easier to trust."
+  },
+  "founderNotes": [
+    "Founded by social welfare advocates committed to practical, measurable support.",
+    "Built on a model that balances empathy, process clarity, and financial accountability."
+  ],
+  "founderSection": {
+    "eyebrow": "Founder",
+    "title": "Led by social welfare advocates",
+    "description": "The founding team combined community service experience with a strong focus on process and accountability.",
+    "statementLabel": "Founder statement",
+    "statement": "We wanted a welfare trust that felt transparent, calm, and dependable from the first interaction."
+  },
+  "missionSection": {
+    "eyebrow": "Mission",
+    "title": "Deliver support where it matters most",
+    "description": "We focus on education, health, and community welfare with programs that are practical and visible."
+  },
+  "visionSection": {
+    "eyebrow": "Vision",
+    "title": "A dependable, high-trust welfare organization",
+    "description": "The long-term ambition is to create a visible record of social support that donors and communities can rely on."
+  },
+  "objectivesSection": {
+    "eyebrow": "Objectives",
+    "title": "The operational goals behind the trust",
+    "description": "Clear goals help the trust stay focused on outcomes rather than abstract messaging."
+  },
+  "objectives": [
+    "Promote education access for disadvantaged students.",
+    "Support health and nutrition interventions where they are most needed.",
+    "Develop volunteer leadership and community participation.",
+    "Maintain transparent reporting for donors and partners."
+  ],
+  "timelineSection": {
+    "eyebrow": "Timeline",
+    "title": "Milestones from foundation to digital transparency",
+    "description": "The timeline creates a confident narrative that supports trust and accountability."
+  },
+  "timeline": [
+    {
+      "year": "2016",
+      "title": "Trust founded",
+      "description": "Created to provide focused welfare support with transparent local partnerships."
+    },
+    {
+      "year": "2019",
+      "title": "Education programs expanded",
+      "description": "Scholarships and student mentoring reached multiple schools and learning centers."
+    },
+    {
+      "year": "2022",
+      "title": "Health outreach scaled",
+      "description": "Community health camps and nutrition drives became a regular monthly initiative."
+    },
+    {
+      "year": "2026",
+      "title": "Digital donor reporting launched",
+      "description": "A modern reporting layer now keeps supporters informed about impact and activity."
+    }
+  ]
+}

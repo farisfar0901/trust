@@ -1,0 +1,50 @@
+{
+  "heading": {
+    "eyebrow": "Events",
+    "title": "Upcoming programs, past work, and event-level details",
+    "description": "The event view is split into simple sections so visitors can read the schedule quickly on any screen."
+  },
+  "upcomingSection": {
+    "eyebrow": "Upcoming Events",
+    "title": "What is next on the trust calendar",
+    "description": "The most important dates stay visible as clean cards with enough detail to act on."
+  },
+  "completedSection": {
+    "eyebrow": "Completed Events",
+    "title": "Recent activity and visible completion",
+    "description": "A completed-events section reinforces trust by showing the work already delivered."
+  },
+  "detailsSection": {
+    "eyebrow": "Event Details",
+    "title": "Recurrent programs and operational notes",
+    "description": "These detail cards help donors and volunteers understand how events are structured."
+  },
+  "statusUpcoming": "Upcoming",
+  "statusCompleted": "Completed",
+  "upcomingEvents": [
+    { "date": "Aug 12", "title": "Back-to-school kit distribution", "location": "City Outreach Hub" },
+    { "date": "Aug 24", "title": "Community health and awareness camp", "location": "Greenfield Community Hall" },
+    { "date": "Sep 05", "title": "Volunteer orientation day", "location": "Trust Headquarters" }
+  ],
+  "completedEvents": [
+    { "date": "Jun 18", "title": "Monsoon ration relief drive", "location": "North Ward Neighborhoods" },
+    { "date": "May 02", "title": "Youth career mentoring forum", "location": "Central School Auditorium" }
+  ],
+  "eventDetails": [
+    {
+      "title": "Monthly outreach clinic",
+      "date": "Every second Saturday",
+      "description": "A rotating clinic providing basic consultations, referrals, and health guidance."
+    },
+    {
+      "title": "Scholarship selection review",
+      "date": "Quarterly",
+      "description": "Applications are screened by the program team and verified through community partners."
+    },
+    {
+      "title": "Volunteer service day",
+      "date": "Seasonal",
+      "description": "Hands-on events for food packs, awareness drives, school visits, and neighborhood support."
+    }
+  ]
+}

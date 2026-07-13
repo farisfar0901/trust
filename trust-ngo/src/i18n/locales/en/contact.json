@@ -1,0 +1,31 @@
+{
+  "heading": {
+    "eyebrow": "Contact",
+    "title": "Map, form, office details, and social links",
+    "description": "The contact page stays direct and practical, with enough structure to support every visitor type."
+  },
+  "mapPlaceholder": "Google Map Embed Placeholder",
+  "detailLabels": {
+    "office": "Office",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Hours"
+  },
+  "detailValues": {
+    "office": "120 Blue Avenue, Central District",
+    "phone": "+91 98765 43210",
+    "email": "support@trustwelfare.org",
+    "hours": "Mon - Sat, 9:30 AM - 6:00 PM"
+  },
+  "form": {
+    "heading": "Contact Form",
+    "name": "Your name",
+    "email": "Your email",
+    "subject": "Subject",
+    "message": "Write your message",
+    "submit": "Send message",
+    "successMessage": "Thank you for reaching out. We will get back to you shortly."
+  },
+  "socialHeading": "Social Media",
+  "socialLinks": ["Facebook", "Instagram", "LinkedIn", "YouTube"]
+}

@@ -1,0 +1,129 @@
+{
+  "hero": {
+    "eyebrow": "Modern NGO website",
+    "title": "Reliable welfare support for Vivekanandha Trust.",
+    "description": "A premium light-yellow and white experience for a welfare trust serving volunteers, donors, students, and the wider public. The design emphasizes clean hierarchy, open space, and a calm professional tone.",
+    "accent": "Built to communicate impact without visual noise, and to make every key action easy to find.",
+    "primaryCta": "Donate for impact",
+    "secondaryCta": "Become a volunteer"
+  },
+  "heroStats": [
+    { "label": "Lives reached", "value": "12K+" },
+    { "label": "Active volunteers", "value": "480" },
+    { "label": "Programs running", "value": "24" },
+    { "label": "Communities served", "value": "36" }
+  ],
+  "aboutSection": {
+    "eyebrow": "About Trust",
+    "title": "A focused trust built for measurable community care",
+    "description": "The trust combines practical relief work, student support, and volunteer-led outreach with transparent communication for every supporter."
+  },
+  "trustHighlights": [
+    {
+      "title": "Education first",
+      "description": "Scholarships, stationery drives, mentoring circles, and digital learning support for students."
+    },
+    {
+      "title": "Community care",
+      "description": "Nutrition, health camps, elderly support, and emergency response initiatives built around local needs."
+    },
+    {
+      "title": "Volunteer-led",
+      "description": "A structured network of volunteers, coordinators, and partners working with clarity and accountability."
+    }
+  ],
+  "missionSection": {
+    "eyebrow": "Mission",
+    "title": "Support that is practical, measurable, and dignified",
+    "description": "Our mission is to deliver welfare programs that solve real needs while keeping the process simple and trustworthy."
+  },
+  "missionPoints": [
+    "Deliver practical welfare programs with dignity and transparency.",
+    "Build long-term opportunities for students, families, and underserved communities.",
+    "Encourage civic participation through volunteering and donor partnerships."
+  ],
+  "visionSection": {
+    "eyebrow": "Vision",
+    "title": "A community where support feels dependable",
+    "description": "Our vision is a welfare platform known for accountability, reliable service, and a human touch in every interaction."
+  },
+  "visionPoints": [
+    "A future where support systems feel reliable, accessible, and human.",
+    "A trust recognized for measurable outcomes and responsible stewardship.",
+    "A community ecosystem where public generosity turns into visible change."
+  ],
+  "activitiesSection": {
+    "eyebrow": "Our Activities",
+    "title": "Programs designed around students, families, and communities",
+    "description": "A clear mix of education, health, nutrition, and empowerment initiatives keeps the trust focused on practical outcomes."
+  },
+  "eventsSection": {
+    "eyebrow": "Upcoming Events",
+    "title": "Community-driven events with clear schedules",
+    "description": "Each event is designed to be easy to understand, easy to share, and easy to participate in."
+  },
+  "donationCta": {
+    "eyebrow": "Donation CTA",
+    "title": "Donations become visible outcomes",
+    "description": "Your support funds education, health, and relief programs with regular reporting and donor clarity.",
+    "lines": [
+      "Support school kits and scholarship assistance.",
+      "Fund health camps and emergency relief activity.",
+      "Enable transparent donor updates and impact reporting."
+    ],
+    "cta": "Give now"
+  },
+  "newsSection": {
+    "eyebrow": "Latest News",
+    "title": "Updates that keep the public informed",
+    "description": "Short, readable news cards help donors and supporters understand what is happening right now."
+  },
+  "testimonialsSection": {
+    "eyebrow": "Testimonials",
+    "title": "Trust built through real supporter experiences",
+    "description": "The site balances warmth with professionalism so the people behind the programs feel tangible."
+  },
+  "testimonials": [
+    {
+      "quote": "The trust's support helped my daughter continue school without interruption. The process was respectful and clear.",
+      "name": "Ayesha M.",
+      "role": "Parent beneficiary"
+    },
+    {
+      "quote": "As a volunteer, I found the coordination professional and the impact visible from the first week.",
+      "name": "Rahul P.",
+      "role": "Volunteer coordinator"
+    },
+    {
+      "quote": "Donating here feels accountable. The updates, photos, and reporting build real trust.",
+      "name": "Dr. Meera S.",
+      "role": "Monthly donor"
+    }
+  ],
+  "galleryPreviewSection": {
+    "eyebrow": "Gallery Preview",
+    "title": "A visual snapshot of community work",
+    "description": "Simple preview tiles keep the gallery feeling polished while remaining light and fast."
+  },
+  "galleryPreview": [
+    { "title": "School community moments", "label": "Learning" },
+    { "title": "Trust activity banner", "label": "Community care" },
+    { "title": "Gallery moment one", "label": "Photo story" },
+    { "title": "Gallery moment two", "label": "Photo story" }
+  ],
+  "volunteerCta": {
+    "eyebrow": "Volunteer CTA",
+    "title": "Join a structured volunteer network",
+    "description": "Volunteers get onboarding, clear assignments, and the chance to contribute to visible community results.",
+    "cta": "Register as volunteer"
+  },
+  "contactCta": {
+    "eyebrow": "Contact Section",
+    "title": "Reach the trust with confidence",
+    "description": "A compact contact block keeps key details visible for visitors who want to connect quickly.",
+    "address": "120 Blue Avenue, Central District",
+    "email": "support@trustwelfare.org",
+    "phone": "+91 98765 43210",
+    "cta": "Open contact page"
+  }
+}

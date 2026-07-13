@@ -1,0 +1,40 @@
+{
+  "heading": {
+    "eyebrow": "Donation",
+    "title": "Clear payment options, bank details, and impact reporting",
+    "description": "The donation page is designed to build trust through clarity, not pressure."
+  },
+  "impactStats": [
+    { "label": "Meals supported", "value": "68K" },
+    { "label": "Students assisted", "value": "1,240" },
+    { "label": "Health camps", "value": "84" },
+    { "label": "Volunteer hours", "value": "9,600" }
+  ],
+  "paymentSection": {
+    "eyebrow": "Payment Options",
+    "title": "Give through the method that feels most convenient",
+    "description": "The trust supports familiar, low-friction donation methods so supporters can contribute safely."
+  },
+  "methods": ["Online transfer", "UPI payment", "Bank deposit", "Cheque / demand draft"],
+  "bankSection": {
+    "eyebrow": "Bank Details",
+    "title": "Official donation account",
+    "description": "Use these details for direct bank transfers and verified support."
+  },
+  "bankFieldLabels": {
+    "accountName": "Account Name",
+    "bankName": "Bank Name",
+    "accountNumber": "Account Number",
+    "ifsc": "IFSC / SWIFT"
+  },
+  "upi": {
+    "label": "UPI",
+    "title": "Fast digital transfer",
+    "description": "A clean section for UPI IDs or QR code placement."
+  },
+  "qr": {
+    "label": "QR Code",
+    "title": "Scan and contribute",
+    "description": "Reserve this panel for a scannable QR image or secure payment link."
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "heading": {
+    "eyebrow": "Blogs",
+    "title": "Readable content for donors, volunteers, and the public",
+    "description": "The blog area emphasizes clean cards, category filters, and recent-post visibility."
+  },
+  "categoriesHeading": "Categories",
+  "recentPostsHeading": "Recent Posts",
+  "categoryKeys": ["impact", "community", "transparency", "volunteer"],
+  "categoryLabels": {
+    "impact": "Impact",
+    "community": "Community",
+    "transparency": "Transparency",
+    "volunteer": "Volunteer"
+  },
+  "posts": [
+    {
+      "categoryKey": "impact",
+      "title": "How targeted welfare support changes school attendance",
+      "excerpt": "A look at how small, consistent support can unlock higher attendance and stronger learning outcomes.",
+      "date": "July 2026"
+    },
+    {
+      "categoryKey": "community",
+      "title": "Why local volunteers are central to trust-building",
+      "excerpt": "Ground-level volunteers help programs stay responsive, accountable, and deeply connected.",
+      "date": "June 2026"
+    },
+    {
+      "categoryKey": "transparency",
+      "title": "Our reporting model for donors and partners",
+      "excerpt": "Quarterly summaries, photo updates, and clear metrics help every supporter follow the work.",
+      "date": "May 2026"
+    },
+    {
+      "categoryKey": "volunteer",
+      "title": "Preparing volunteers for high-trust community service",
+      "excerpt": "A simple training framework helps the team show up with consistency and care.",
+      "date": "April 2026"
+    }
+  ],
+  "recentPosts": [
+    "Annual impact review published",
+    "Volunteer orientation registrations open",
+    "New scholarship cohort announced"
+  ]
+}

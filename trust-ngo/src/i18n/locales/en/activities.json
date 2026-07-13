@@ -1,0 +1,39 @@
+{
+  "heading": {
+    "eyebrow": "Activities",
+    "title": "Programs designed around students, families, and communities",
+    "description": "A clear mix of education, health, nutrition, and empowerment initiatives keeps the trust focused on practical outcomes."
+  },
+  "cards": [
+    {
+      "category": "Education",
+      "title": "Student scholarship support",
+      "description": "Monthly scholarships, tuition assistance, and learning resources for promising students."
+    },
+    {
+      "category": "Health",
+      "title": "Free community health camps",
+      "description": "Doctor consultations, basic screening, and awareness sessions delivered in high-need areas."
+    },
+    {
+      "category": "Nutrition",
+      "title": "Food and ration drives",
+      "description": "Targeted relief support for families during seasonal hardship and emergency situations."
+    },
+    {
+      "category": "Empowerment",
+      "title": "Skill and livelihood programs",
+      "description": "Training sessions that help young people and caregivers move toward stable income opportunities."
+    },
+    {
+      "category": "Education",
+      "title": "After-school learning center",
+      "description": "Homework support, reading sessions, and digital literacy guidance for school-aged children."
+    },
+    {
+      "category": "Health",
+      "title": "Wellness awareness campaigns",
+      "description": "Trusted information sessions on hygiene, nutrition, preventive care, and mental wellbeing."
+    }
+  ]
+}

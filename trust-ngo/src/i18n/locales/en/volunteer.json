@@ -1,0 +1,55 @@
+{
+  "heading": {
+    "eyebrow": "Volunteer",
+    "title": "A registration experience designed for trust and clarity",
+    "description": "This page pairs a clean registration form with benefits and FAQ content so people can decide quickly."
+  },
+  "form": {
+    "heading": "Registration Form",
+    "fullName": "Full name",
+    "email": "Email address",
+    "phone": "Phone number",
+    "city": "City / location",
+    "preferredArea": "Preferred volunteering area",
+    "areaPlaceholder": "Preferred volunteering area",
+    "areaOptions": {
+      "education": "Education",
+      "health": "Health",
+      "relief": "Relief",
+      "events": "Events"
+    },
+    "message": "Tell us about your interests and availability",
+    "submit": "Submit volunteer application",
+    "successMessage": "Thank you for registering as a volunteer. Our team will contact you shortly."
+  },
+  "benefitsSection": {
+    "eyebrow": "Benefits",
+    "title": "Why volunteers join the trust",
+    "description": "Clear benefits make the volunteer path feel organized and worthwhile."
+  },
+  "benefits": [
+    "Structured onboarding and role clarity.",
+    "Real-world community service experience.",
+    "Certificates and reference letters for active volunteers.",
+    "Opportunities to lead specific campaign teams."
+  ],
+  "faqSection": {
+    "eyebrow": "FAQ",
+    "title": "Common questions answered simply",
+    "description": "A short FAQ reduces friction and improves conversion for volunteer signups."
+  },
+  "faq": [
+    {
+      "question": "Do I need prior experience to volunteer?",
+      "answer": "No. We provide orientation, clear task assignments, and local team support for new volunteers."
+    },
+    {
+      "question": "How often can I volunteer?",
+      "answer": "You can join one-time drives, monthly programs, or longer-term teams depending on availability."
+    },
+    {
+      "question": "Will I receive a certificate?",
+      "answer": "Yes. Active volunteers can receive participation certificates and acknowledgements."
+    }
+  ]
+}

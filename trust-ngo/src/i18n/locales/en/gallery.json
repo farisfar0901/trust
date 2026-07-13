@@ -1,0 +1,21 @@
+{
+  "heading": {
+    "eyebrow": "Gallery",
+    "title": "Photos, videos, and year-based filtering",
+    "description": "A gallery should feel calm and elegant, with filters that are obvious and content that is easy to scan."
+  },
+  "photos": [
+    { "year": "2026", "title": "Community banner image", "type": "Photo" },
+    { "year": "2026", "title": "Student event photo", "type": "Photo" },
+    { "year": "2025", "title": "Trust activity banner", "type": "Photo" },
+    { "year": "2025", "title": "Learning and values", "type": "Photo" },
+    { "year": "2024", "title": "Program highlight", "type": "Photo" },
+    { "year": "2023", "title": "Trust campus image", "type": "Photo" }
+  ],
+  "videos": [
+    { "year": "2026", "title": "Annual impact story", "duration": "04:12" },
+    { "year": "2025", "title": "Volunteer day recap", "duration": "02:48" }
+  ],
+  "videoLabel": "Video",
+  "durationLabel": "Duration"
+}
