@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Trust.Api.Domain;
+using Admin = Trust.Api.Domain.Admin;
 
 namespace Trust.Api.Data;
 
@@ -12,8 +13,27 @@ public sealed class TrustDbContext(DbContextOptions<TrustDbContext> options) : D
     public DbSet<DonationRecord> DonationRecords => Set<DonationRecord>();
     public DbSet<ContactMessage> ContactMessages => Set<ContactMessage>();
 
+    // Admin domain layer (docs/DATABASE_DESIGN.md, database/schema.sql).
+    // "Admin" prefix only where the name would otherwise collide with the
+    // legacy DbSets above (Events, ContactMessages); the entity classes
+    // themselves are named cleanly (Event, ContactMessage) in Domain.Admin.
+    public DbSet<Admin.AdminUser> AdminUsers => Set<Admin.AdminUser>();
+    public DbSet<Admin.AdminAuthToken> AdminAuthTokens => Set<Admin.AdminAuthToken>();
+    public DbSet<Admin.Member> Members => Set<Admin.Member>();
+    public DbSet<Admin.VolunteerRequest> VolunteerRequests => Set<Admin.VolunteerRequest>();
+    public DbSet<Admin.Volunteer> Volunteers => Set<Admin.Volunteer>();
+    public DbSet<Admin.Event> AdminEvents => Set<Admin.Event>();
+    public DbSet<Admin.GalleryMedia> GalleryMedia => Set<Admin.GalleryMedia>();
+    public DbSet<Admin.ContactMessage> AdminContactMessages => Set<Admin.ContactMessage>();
+    public DbSet<Admin.Announcement> Announcements => Set<Admin.Announcement>();
+    public DbSet<Admin.Testimonial> Testimonials => Set<Admin.Testimonial>();
+    public DbSet<Admin.Setting> Settings => Set<Admin.Setting>();
+    public DbSet<Admin.AuditLog> AuditLogs => Set<Admin.AuditLog>();
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.ApplyConfigurationsFromAssembly(typeof(TrustDbContext).Assembly);
+
         modelBuilder.Entity<EventItem>(entity =>
         {
             entity.HasIndex(item => item.Slug).IsUnique();
