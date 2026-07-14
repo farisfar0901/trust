@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(docker --version)",
+      "Bash(where psql *)",
+      "Bash(where pg_ctl)",
+      "Bash(powershell -Command \"Start-Process 'C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe'\")",
+      "Bash(docker run *)",
+      "Bash(docker exec *)",
+      "Bash(break)",
+      "Bash(docker cp *)",
+      "Bash(MSYS_NO_PATHCONV=1 docker cp \"d:/project -1/Trust/database/schema.sql\" trust-schema-test:/tmp/schema.sql)",
+      "Bash(MSYS_NO_PATHCONV=1 docker exec -e PGPASSWORD=test_pass trust-schema-test psql -U test_user -d test_db -v ON_ERROR_STOP=1 -f /tmp/schema.sql)",
+      "Bash(MSYS_NO_PATHCONV=1 docker exec -e PGPASSWORD=test_pass trust-schema-test psql -U test_user -d test_db -c \"\\\\dt\")",
+      "Bash(MSYS_NO_PATHCONV=1 docker cp \"C:/Users/rafis/AppData/Local/Temp/claude/d--project--1-Trust/792e183b-b48f-4912-b460-8bade808b15f/scratchpad/test_schema.sql\" trust-schema-test:/tmp/test_schema.sql)",
+      "Bash(MSYS_NO_PATHCONV=1 docker exec -e PGPASSWORD=test_pass trust-schema-test psql -U test_user -d test_db -v ON_ERROR_STOP=1 -f /tmp/test_schema.sql)",
+      "Bash(docker rm *)",
+      "Bash(dotnet build *)",
+      "Bash(dotnet tool *)",
+      "Bash(dotnet ef *)"
+    ]
+  }
+}

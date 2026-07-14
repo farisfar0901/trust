@@ -8,6 +8,7 @@ using Trust.Api.Application.Repositories;
 using Trust.Api.Application.Services.Authentication;
 using Trust.Api.Application.Services.Events;
 using Trust.Api.Application.Services.Gallery;
+using Trust.Api.Application.Services.Members;
 using Trust.Api.Application.Services.Volunteers;
 using Trust.Api.Data;
 using Trust.Api.Data.Repositories;
@@ -53,19 +54,21 @@ builder.Services.AddSingleton<IPasswordHasher, Pbkdf2PasswordHasher>();
 builder.Services.AddSingleton<ISecureTokenGenerator, SecureTokenGenerator>();
 builder.Services.AddScoped<IAccessTokenGenerator, HmacAccessTokenGenerator>();
 
-// Application layer: repositories (Admin Authentication, Volunteer Requests, Events, Gallery).
+// Application layer: repositories (Admin Authentication, Volunteer Requests, Events, Gallery, Members).
 builder.Services.AddScoped<IAdminUserRepository, AdminUserRepository>();
 builder.Services.AddScoped<IAdminAuthTokenRepository, AdminAuthTokenRepository>();
 builder.Services.AddScoped<IVolunteerRequestRepository, VolunteerRequestRepository>();
 builder.Services.AddScoped<IVolunteerRepository, VolunteerRepository>();
 builder.Services.AddScoped<IEventRepository, EventRepository>();
 builder.Services.AddScoped<IGalleryMediaRepository, GalleryMediaRepository>();
+builder.Services.AddScoped<IMemberRepository, MemberRepository>();
 
-// Application layer: services (Admin Authentication, Volunteer Requests, Events, Gallery).
+// Application layer: services (Admin Authentication, Volunteer Requests, Events, Gallery, Members).
 builder.Services.AddScoped<IAdminAuthService, AdminAuthService>();
 builder.Services.AddScoped<IVolunteerRequestService, VolunteerRequestService>();
 builder.Services.AddScoped<IEventService, EventService>();
 builder.Services.AddScoped<IGalleryMediaService, GalleryMediaService>();
+builder.Services.AddScoped<IMemberService, MemberService>();
 
 // JWT bearer authentication. Validates access tokens issued by
 // HmacAccessTokenGenerator, so the signing key and issuer must match
